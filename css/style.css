@@ -1,0 +1,56 @@
+/*
+body {
+    padding-top: 50px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+*/
+
+.navbar {
+    background: #ffffff;
+    height: 86px;
+}
+
+#logo {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#menu {
+    padding-top: 12px;
+}
+
+#menu2 {
+    padding-top: 12px;
+    margin-right: 80px;
+}
+
+#menu2 img {
+    max-height: 25px;
+    max-width: 25px;
+    margin-left: 3px;
+}
+
+.steps {
+    margin: 0;
+    padding: 0;
+}
+
+.left,
+.right {
+    position: absolute;
+    top: 49%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 90;
+    width: 33px;
+    height: 60px;
+}
+
+.left img,
+.right img {
+    width: 21px;
+    height: 37px;
+}
