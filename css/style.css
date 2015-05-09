@@ -1,4 +1,4 @@
-.navbar {
+#barnav {
     background: #ffffff;
     width: 100%;
     height: 16%;
@@ -6,21 +6,21 @@
 }
 
 #logo {
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 175px;
+    padding-left: 75px;
+    padding-right: 0;
+    width: 100%;
     height: auto;
     position: relative;
 }
 
 #menu {
     padding: 12px;
-    margin-left: 10%;
+    padding-left: 75px;
 }
 
 #menu2 {
-    padding: 12px;
-    margin-right: 10%;
+    padding-top: 12px;
+    padding-right: 50px;
 }
 
 #menu2 img {
@@ -59,12 +59,13 @@
     border-color: #ffffff;
 }
 
-.carousel-indicators {
+.indicador,
+.indicador2 {
     bottom: 6%;
     z-index: 90;
 }
 
-.carousel-indicators .active {
+.indicador .active {
     background-color: #3E5D9E !important;
     border-color: #3e5d9e !important;
 }
@@ -117,6 +118,73 @@
     padding-top: 14px;
 }
 
+#indicador2 {
+    background-color: #FFFFFF;
+    border-color: #ffffff;
+    height: 16px;
+    width: 16px;
+    margin: 0 5px;
+}
+
+.indicador2 {
+    position: absolute;
+    bottom: 100px;
+    left: 390px !important;
+    height: 30px;
+    width: 120px;
+    padding-top: 5px;
+}
+
+.indicador2 .active {
+    background-color: #F7502A !important;
+    border-color: #F7502A !important;
+}
+
+#bottom2 {
+    position: relative;
+    bottom: -90px;
+    left: -75px;
+    width: 250px;
+    height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    display: inline-block;
+    text-align: left;
+}
+
+#interno {
+    position: relative;
+    border: 2px solid white;
+    width: 160%;
+    height: 500px;
+    top: 280px;
+    left: -78px;
+}
+
+#bottomright2 {
+    position: relative;
+    top: 40px;
+    right: -40%;
+    width: 175px;
+    height: 90px;
+    display: inline-block;
+}
+
+#topleft2 {
+    position: relative;
+    top: -200px;
+    left: 35%;
+    width: 210px;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    text-align: left;
+}
+
 .bottom {
     position: relative;
     top: -25px;
@@ -143,6 +211,11 @@
     display: inline-block;
 }
 
+#centor {
+    width: 75%;
+    padding-top: 40px;
+}
+
 #3steps {
     background-color: #F6F5F3;
 }
@@ -153,10 +226,125 @@
     padding: 0;
 }
 
-.steps p {
+.steps h3 {
     text-align: center;
-    margin: 40px 468px;
+    margin: 40px 460px;
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
-    font-size: 24px
+    font-size: 24px;
+}
+
+.steps h4 {
+    text-align: center;
+    font-size: 16px;
+    text-align: left;
+    color: #F76140;
+    line-height: 20px;
+}
+
+.steps #icon {
+    margin-left: 33.33%;
+    margin-bottom: 10%;
+}
+
+.steps #icon2 {
+    margin-top: 2%;
+}
+
+#texto {
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+.services {
+    background-image: url(../images/shadow_up.png);
+    background-repeat: no-repeat;
+    background-color: #EBEBEB;
+}
+
+.imgservices1 {
+    background-image: url(../images/slide_2.jpg);
+    width: 97%;
+    height: 255px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+}
+
+.imgservices2 {
+    background-image: url(../images/slide_3.jpg);
+    width: 97%;
+    height: 255px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+#interno2,
+#interno3 {
+    position: relative;
+    border: 2px solid white;
+    width: 97%;
+    height: 94%;
+    top: 6px;
+    left: 9px;
+}
+
+#topleft3 {
+    position: relative;
+    top: -220px;
+    left: 5%;
+    width: 210px;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    text-align: left;
+}
+
+#bottom3 {
+    position: absolute;
+    bottom: 280px;
+    width: 300px;
+    height: 100px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    display: inline-block;
+    text-align: right;
+}
+
+#bottom4 {
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    height: 100px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    display: inline-block;
+    text-align: right;
+}
+
+#bottom4 a:link,
+#bottom4 a:visited,
+#bottom4 a:hover,
+#bottom4 a:active {
+    color: white;
+}
+
+#tilde {
+    margin-left: 90px;
+}
+
+#profesional img {
+    margin-top: 25px;
+}
+
+#profesional2 {
+    width: 100px;
+    display: inline-block;
+    padding: 0;
+    font-size: 40px;
+    margin-left: 30px;
 }
